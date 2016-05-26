@@ -1,5 +1,5 @@
 var Action = require('../lib/action');
-var Rx     = require('rx');
+var Rx     = require('rxjs');
 var test   = require('tape');
 
 test('Action', function (t) {

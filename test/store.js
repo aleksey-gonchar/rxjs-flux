@@ -1,8 +1,8 @@
 var test     = require('tape');
 var Store    = require('../lib/store');
-var Rx       = require('rx');
+var Rx       = require('rxjs');
 var sinon    = require('sinon');
-var Promise  = require('bluebird/zalgo');
+var Promise  = require('bluebird');
 
 
 test('Store', function (t) {

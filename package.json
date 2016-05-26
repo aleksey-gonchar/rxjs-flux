@@ -1,5 +1,5 @@
 {
-  "name": "rx-flux",
+  "name": "rxjs-flux",
   "description": "A set of utililities to implements a flux architecture with RxJS",
   "version": "0.2.0",
   "keywords": [
@@ -9,30 +9,33 @@
     "rxjs"
   ],
   "main": "index.js",
-  "bugs": "https://github.com/fdecampredon/rx-flux/issues",
+  "bugs": "https://github.com/aleksey-gonchar/rxjs-flux/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fdecampredon/rx-flux/"
+    "url": "https://github.com/aleksey-gonchar/rxjs-flux"
   },
   "scripts": {
     "test": "tape test/*.js"
   },
   "author": {
-    "name": "François de Campredon",
-    "email": "francois.de.campredon@gmail.com",
-    "url": "https://github.com/fdecampredon"
+    "name": "Alex Potter",
+    "email": "tuiteraz@gmail.com",
+    "url": "https://github.com/aleksey-gonchar"
   },
-  "license": "Apache Version 2",
+  "license": "MIT",
   "dependencies": {
-    "node-uuid": "^1.4.1"
-  },
-  "peerDependencies": {
-    "rx": "^3.0.0"
+    "node-uuid": "^1.4.1",
+    "rxjs": "5.0.0-beta.6"
   },
   "devDependencies": {
-    "bluebird": "^2.5.3",
-    "rx": "^2.3.14",
-    "sinon": "^1.11.1",
-    "tape": "^3.0.2"
+    "typescript": "1.8.10",
+    "typings": "1.0.4",
+    "bluebird": "3.4.0",
+    "sinon": "1.11.1",
+    "tape": "3.0.2"
+  },
+  "engines": {
+    "node": ">=6.2.0",
+    "npm": "~3.8.9"
   }
 }
